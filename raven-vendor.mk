@@ -541,7 +541,6 @@ PRODUCT_PACKAGES += \
     libmediaadaptor \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
-    libhbmsvmanager_jni \
     VZWAPNLib \
     AppDirectedSMSService \
     CarrierSettings_signed_53.0.733201674 \
@@ -567,7 +566,6 @@ PRODUCT_PACKAGES += \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     MyVerizonServices \
     OemRilService \
     RilConfigService \
@@ -595,8 +593,7 @@ PRODUCT_PACKAGES += \
     product_priv-app_DMService_lib_arm_libdmengine_so \
     product_priv-app_DMService_lib_arm_libdmjavaplugin_so \
     product_priv-app_DMService_lib_arm64_libdmengine_so \
-    product_priv-app_DMService_lib_arm64_libdmjavaplugin_so \
-    system_ext_priv-app_HbmSVManager_lib_arm64_libhbmsvmanager_jni_so
+    product_priv-app_DMService_lib_arm64_libdmjavaplugin_so
 
 PRODUCT_COPY_FILES += \
     vendor/google/raven/proprietary/vendor/etc/Khronos/OpenCL/vendors/ARM.icd:$(TARGET_COPY_OUT_VENDOR)/etc/Khronos/OpenCL/vendors/ARM.icd \
